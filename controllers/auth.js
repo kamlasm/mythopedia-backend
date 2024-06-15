@@ -1,7 +1,7 @@
-import express from "express"
-import bcrypt from "bcrypt"
-import User from "../models/user.js"
-import validator from "email-validator"
+import express from 'express'
+import bcrypt from 'bcrypt'
+import User from '../models/user.js'
+import validator from 'email-validator'
 import jwt from 'jsonwebtoken'
 import { secret } from '../config/environment.js'
 
@@ -39,7 +39,7 @@ router.post('/sign-up', async (req, res, next) => {
         })
 
     } catch (err) {
-        next(err)
+        res.send(err.message)
     }    
 })
 
@@ -48,7 +48,7 @@ router.post('/login', async (req, res, next) => {
         const user = await User.findOne({ email: req.body.email })
         
         if (!user) {
-            throw new Error('Unathorised')
+            throw new Error('Unauthorised')
         }
 
         const passwordsMatch = await bcrypt.compare(
@@ -56,7 +56,7 @@ router.post('/login', async (req, res, next) => {
             user.password
         )
         if (!passwordsMatch) {
-            throw new Error('Unathorised')
+            throw new Error('Unauthorised')
         }
 
         const token = jwt.sign(

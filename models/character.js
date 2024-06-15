@@ -1,13 +1,14 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const characterSchema = new mongoose.Schema({
     name: { type: String, require: true, unique: true },
     description: { type: String, require: true },
     type: { type: String, require: true },
-    image: { type: String, require: true },
+    images: { type: Object, require: true },
     relatives: { type: Object },
     strength: { type: Number },
-    intelligence: { type: Number }
+    intelligence: { type: Number },
+    cost: { type: Number },
 })
 
 

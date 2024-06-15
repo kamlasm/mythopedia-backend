@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const monsterSchema = new mongoose.Schema({
     name: { type: String, require: true, unique: true },

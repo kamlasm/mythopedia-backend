@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 import mongooseUniqueValidator from 'mongoose-unique-validator'
 import mongooseHidden from 'mongoose-hidden'
 
@@ -6,7 +6,7 @@ const gameSchema = new mongoose.Schema({
     money: { type: Number, require: true, default: 100 },
     totalStrength: { type: Number, require: true, default: 0 },
     totalIntelligence: { type: Number, require: true, default: 0 },
-    team: [{ type: mongoose.Schema.ObjectId, ref: "Character" }]
+    team: [{ type: mongoose.Schema.ObjectId, ref: 'Character' }]
 
 })
 

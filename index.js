@@ -4,14 +4,14 @@ import { connectToDb } from './db/helpers.js';
 // import errorHandler from './middleware/errorHandler.js';
 import express from 'express';
 import { port } from './config/environment.js';
-// import characterRouter from './controllers/character.js';
+import characterRouter from './controllers/character.js';
 import authRouter from './controllers/auth.js';
 
 const app = express();
 
 app.use(express.json());
 app.use('/api', authRouter);
-// app.use('/api', characterRouter);
+app.use('/api', characterRouter);
 // app.use(errorHandler);
 
 app.get('/', (req, res) => {

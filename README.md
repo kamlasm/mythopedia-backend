@@ -1,6 +1,6 @@
 # README
 
 
-# Colaborators
+# Collaborators
 - Kamla
 - Melanie
