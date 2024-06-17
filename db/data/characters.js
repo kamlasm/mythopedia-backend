@@ -22,6 +22,7 @@ export default [
         "strength": 50,
         "intelligence": 60,
         "cost": 55,
+        "isPlayable": true
     },
     {
         "name": "Apollo",
@@ -46,6 +47,7 @@ export default [
         "strength": 60,
         "intelligence": 80,
         "cost": 70,
+        "isPlayable": true
     },
     {
         "name": "Ares",
@@ -70,6 +72,7 @@ export default [
         "strength": 100,
         "intelligence": 40,
         "cost": 70,
+        "isPlayable": true
     },
     {
         "name": "Artemis",
@@ -94,6 +97,7 @@ export default [
         "strength": 70,
         "intelligence": 70,
         "cost": 70,
+        "isPlayable": true
     },
     {
         "name": "Athena",
@@ -118,6 +122,7 @@ export default [
         "strength": 75,
         "intelligence": 100,
         "cost": 85,
+        "isPlayable": true
     },
     {
         "name": "Demeter",
@@ -142,6 +147,7 @@ export default [
         "strength": 60,
         "intelligence": 75,
         "cost": 65,
+        "isPlayable": true
     },
     {
         "name": "Dionysus/Bacchus",
@@ -166,6 +172,7 @@ export default [
         "strength": 50,
         "intelligence": 50,
         "cost": 50,
+        "isPlayable": true
     },
     {
         "name": "Hades/Pluto",
@@ -190,6 +197,7 @@ export default [
         "strength": 80,
         "intelligence": 70,
         "cost": 75,
+        "isPlayable": true
     },
     {
         "name": "Hephaestus",
@@ -214,6 +222,7 @@ export default [
         "strength": 80,
         "intelligence": 70,
         "cost": 75,
+        "isPlayable": true
     },
     {
         "name": "Hera",
@@ -238,6 +247,7 @@ export default [
         "strength": 70,
         "intelligence": 70,
         "cost": 70,
+        "isPlayable": true
     },
     {
         "name": "Hermes",
@@ -262,6 +272,7 @@ export default [
         "strength": 65,
         "intelligence": 80,
         "cost": 70,
+        "isPlayable": true
     },
     {
         "name": "Hestia",
@@ -286,6 +297,7 @@ export default [
         "strength": 50,
         "intelligence": 60,
         "cost": 55,
+        "isPlayable": true
     },
     {
         "name": "Poseidon",
@@ -310,6 +322,7 @@ export default [
         "strength": 90,
         "intelligence": 70,
         "cost": 80,
+        "isPlayable": true
     },
     {
         "name": "Zeus",
@@ -334,6 +347,7 @@ export default [
         "strength": 95,
         "intelligence": 90,
         "cost": 95,
+        "isPlayable": true
     },
     // {
     //     "name": "Coeus",

@@ -6,12 +6,14 @@ import express from 'express';
 import { port } from './config/environment.js';
 import characterRouter from './controllers/character.js';
 import authRouter from './controllers/auth.js';
+import teamRouter from './controllers/team.js';
 
 const app = express();
 
 app.use(express.json());
 app.use('/api', authRouter);
 app.use('/api', characterRouter);
+app.use('/api', teamRouter);
 // app.use(errorHandler);
 
 app.get('/', (req, res) => {

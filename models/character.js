@@ -9,6 +9,7 @@ const characterSchema = new mongoose.Schema({
     strength: { type: Number },
     intelligence: { type: Number },
     cost: { type: Number },
+    isPlayable: { type: Boolean, require: true, default: false }
 })
 
 
