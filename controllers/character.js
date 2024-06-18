@@ -7,7 +7,7 @@ const router = express.Router()
 
 router.get('/characters', async function characterIndex(req, res, next) {
   try {
-    throw new NotFound()
+    // throw new NotFound()
     const characters = await Character.find();
     
     if (!characters) throw new NotFound()

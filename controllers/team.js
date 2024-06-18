@@ -40,7 +40,7 @@ router.put('/your-team', secureRoute, async function editTeam(req, res) {
         gameplay.level= req.body.newLevel,
 
         await user.save()    
-
+        return res.status(200)
     } catch (err) {
         console.log(err)
     }
@@ -54,7 +54,8 @@ router.put('/game', secureRoute, async function editTeam(req, res) {
         gameplay.money= req.body.newMoney,
         gameplay.level= req.body.newLevel,
 
-        await user.save()    
+        await user.save()
+        return res.status(200)
 
     } catch (err) {
         console.log(err)
