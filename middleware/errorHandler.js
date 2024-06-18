@@ -22,6 +22,10 @@ export default function errorHandler(err, req, res, next) {
     if (err.name === 'AlreadyExists') {
       return res.status(400).json({ message: 'This character already exists, please try another!' })
     }
+
+    if (err.name === 'FieldsMissing') {
+      return res.status(422).json({ message: 'All required fields must be filled in.' })
+    }
   
     //* User errors
     if (err.name === 'UsernameOrEmailExists') {
