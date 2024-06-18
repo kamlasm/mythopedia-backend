@@ -4,23 +4,28 @@ import User from '../models/user.js'
 import validator from 'email-validator'
 import jwt from 'jsonwebtoken'
 import { secret } from '../config/environment.js'
+import { EmailNotValid, UsernameOrEmailExists, Unauthorised, PasswordsNotMatching, UserInfoMissing } from '../lib/errors.js'
 
 const router = express.Router()
 
 router.post('/sign-up', async (req, res, next) => {
     try {
+        if (req.body.password === '' || req.body.username === '') {
+            throw new UserInfoMissing()
+        }
+        
         if (!validator.validate(req.body.email)) {
-            throw new Error('Email not valid')
+            throw new EmailNotValid()
         }
         
         const usernameinDb = await User.findOne({ username: req.body.username })
         const emailinDb = await User.findOne({ email: req.body.email })
         if (usernameinDb || emailinDb) {
-            throw new Error('Email or username already taken')
+            throw new UsernameOrEmailExists()
         }
 
         if (req.body.password !== req.body.passwordConfirmation) {
-            throw new Error('Passwords do not match')
+            throw new PasswordsNotMatching()
         }
 
         // const passwordRegex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/
@@ -33,13 +38,26 @@ router.post('/sign-up', async (req, res, next) => {
         req.body.password = passwordHash
 
         const user = await User.create(req.body)
-        
+
+        const token = jwt.sign(
+            {
+                username: user.username,
+                userId: user._id,
+                userIsAdmin: user.isAdmin,
+            }, 
+            secret, 
+            {
+                expiresIn: '7 days' 
+            }
+        )
+
         return res.status(201).json({
-            message: `Welcome ${user.username}`
+            message: `Welcome ${user.username}`,
+            token
         })
 
     } catch (err) {
-        res.send(err.message)
+        next(err)
     }    
 })
 
@@ -48,7 +66,7 @@ router.post('/login', async (req, res, next) => {
         const user = await User.findOne({ email: req.body.email })
         
         if (!user) {
-            throw new Error('Unauthorised')
+            throw new Unauthorised()
         }
 
         const passwordsMatch = await bcrypt.compare(
@@ -56,7 +74,7 @@ router.post('/login', async (req, res, next) => {
             user.password
         )
         if (!passwordsMatch) {
-            throw new Error('Unauthorised')
+            throw new Unauthorised()
         }
 
         const token = jwt.sign(
@@ -77,7 +95,7 @@ router.post('/login', async (req, res, next) => {
         })
 
     } catch (err) {
-        res.send(err.message)
+        next(err)
     }   
 })
 
