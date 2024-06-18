@@ -37,6 +37,22 @@ router.put('/your-team', secureRoute, async function editTeam(req, res) {
         gameplay.totalStrength= req.body.newStrength,
         gameplay.totalIntelligence= req.body.newIntelligence,
         gameplay.team= req.body.newTeam,
+        gameplay.level= req.body.newLevel,
+
+        await user.save()    
+
+    } catch (err) {
+        console.log(err)
+    }
+})
+
+router.put('/game', secureRoute, async function editTeam(req, res) {
+    try {
+        const user = res.locals.currentUser
+        const gameplay = user.gameplay
+
+        gameplay.money= req.body.newMoney,
+        gameplay.level= req.body.newLevel,
 
         await user.save()    
 
