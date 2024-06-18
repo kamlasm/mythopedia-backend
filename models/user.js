@@ -3,6 +3,7 @@ import mongooseUniqueValidator from 'mongoose-unique-validator'
 import mongooseHidden from 'mongoose-hidden'
 
 const gameSchema = new mongoose.Schema({
+    level: { type: Number, require: true, default: 1},
     money: { type: Number, require: true, default: 100 },
     totalStrength: { type: Number, require: true, default: 0 },
     totalIntelligence: { type: Number, require: true, default: 0 },
@@ -15,7 +16,7 @@ const userSchema = new mongoose.Schema({
     email: { type: String, require: true, unique: true },
     password: { type: String, require: true },
     isAdmin: { type: Boolean, default: false },
-    gameplay: { type: gameSchema, require: true, default: {money: 100, strength: 0, intelligence: 0} }
+    gameplay: { type: gameSchema, require: true, default: {level:1 ,money: 100, strength: 0, intelligence: 0} }
 })
 
 userSchema.plugin(mongooseUniqueValidator)
