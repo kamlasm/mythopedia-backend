@@ -34,6 +34,7 @@ async function seed() {
         const monsters = await Monster.create(monsterData)
         console.log(`${monsters.length} monsters added to the database`)
 
+
     } catch (err) {
         console.log(err)
     }
