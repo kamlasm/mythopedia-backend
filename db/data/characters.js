@@ -306,14 +306,14 @@ export default [
         "description": "King of the gods, ruler of Mount Olympus, and god of the sky, weather, thunder, lightning, law, order, and justice. He is the youngest son of Cronus and Rhea. He overthrew Cronus and gained the sovereignty of heaven for himself. In art he is depicted as a regal, mature man with a sturdy figure and dark beard. His usual attributes are the royal scepter and the lightning bolt. His sacred animals include the eagle and the bull. His Roman counterpart is Jupiter, also known as Jove.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/6/66/Le_Jupiter_Olympien_ou_l%27art_de_la_sculpture_antique.jpg"
+        "images": "https://static.wikia.nocookie.net/greekmythology/images/0/0b/Coeus.jpg/revision/latest?cb=20131207104134"
         ,
         "relatives": {
             "father": "Cronos",
             "mother": "Rhea",
             "spouses": ["Hera"],
             "lovers": ["Metis","Themis","Eurynome","Demeter","Mnemosyne","Leto"],
-            "children": ["Dionysus", "Artemis", "Persephone", "Aphrodite", "Heracles", "Ares", "Apollo", "Hephaestus", "and many more..."],
+            "children": ["Dionysus", "Artemis", "Persephone", "Aphrodite", "Heracles", "Ares", "Apollo", "Hephaestus"],
             "siblings": ["Demeter", "Poseidon", "Hades", "Hera"],
         },
         "strength": 95,
@@ -321,44 +321,44 @@ export default [
         "cost": 95,
         "isPlayable": true
     },
-    // {
-    //     "name": "Coeus",
-    //     "greekName": "Κοῖος (Koîos)",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "" ,
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of intellect and the axis of heaven around which the constellations revolved."
-    // },
-    // {
-    //     "greekName": "Κρεῖος (Kreîos)",
-    //     "name": "Crius",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "The least individualized of the titans, he is the father of Astraeus, Pallas, and Perses. Implied to be the Titan of constellations."
-    // },
+    {
+        "name": "Coeus",
+        "greekName": "Κοῖος (Koîos)",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://greekgodsandgoddesses.net/wp-content/uploads/2024/01/Titan-Coeus-1024x585.png" ,
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of intellect and the axis of heaven around which the constellations revolved."
+    },
+    {
+        "greekName": "Κρεῖος (Kreîos)",
+        "name": "Crius",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://digitalmapsoftheancientworld.com/wp-content/uploads/2024/04/crius-god-of-constellations-1536x878-1.png?w=1024",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "The least individualized of the titans, he is the father of Astraeus, Pallas, and Perses. Implied to be the Titan of constellations."
+    },
     {
         "greekName": "Κρόνος (Kronos)",
         "name": "Cronus",
@@ -366,7 +366,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Mutiliation_of_Uranus_by_Saturn.jpg/800px-The_Mutiliation_of_Uranus_by_Saturn.jpg"
+        "images": "https://www.greekmythology.com/images/mythology/cronus_image_15.jpg"
         ,
         "relatives": {
             "father": "",
@@ -379,44 +379,44 @@ export default [
         "events": [],
         "description": "Titan of harvests and personification of destructive time. The leader of the Titans, who overthrew his father Uranus only to be overthrown in turn by his son, Zeus. Not to be confused with Chronos."
     },
-    // {
-    //     "greekName": "Ὑπερίων (Hyperíōn)",
-    //     "name": "Hyperion",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of light. With Theia, he is the father of Helios (the sun), Selene (the moon), and Eos (the dawn)."
-    // },
-    // {
-    //     "greekName": "Ἰαπετός (Iapetós)",
-    //     "name": "Iapetus",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of mortality and father of Prometheus, Epimetheus, Menoetius, and Atlas."
-    // },
+    {
+        "greekName": "Ὑπερίων (Hyperíōn)",
+        "name": "Hyperion",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/hyperion_image_19.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of light. With Theia, he is the father of Helios (the sun), Selene (the moon), and Eos (the dawn)."
+    },
+    {
+        "greekName": "Ἰαπετός (Iapetós)",
+        "name": "Iapetus",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://oldworldgods.com/wp-content/uploads/2023/11/iapetus1.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of mortality and father of Prometheus, Epimetheus, Menoetius, and Atlas."
+    },
     {
         "greekName": "Mνημοσύνη (Mnēmosýnē)",
         "name": "Mnemosyne",
@@ -576,25 +576,25 @@ export default [
         "events": [],
         "description": "Titaness of nocturnal oracles and falling stars."
     },
-    // {
-    //     "greekName": "Ἀστραῖος (Astraîos)",
-    //     "name": "Astraeus",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of dusk, stars, and planets, and the art of astrology."
-    // },
+    {
+        "greekName": "Ἀστραῖος (Astraîos)",
+        "name": "Astraeus",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/crius_image_24.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of dusk, stars, and planets, and the art of astrology."
+    },
     {
         "greekName": "Ἄτλας (Átlas)",
         "name": "Atlas",
@@ -755,25 +755,25 @@ export default [
         "events": [],
         "description": "Titan of afterthought and the father of excuses."
     },
-    // {
-    //     "greekName": "Εὐρυβία (Eurybía)",
-    //     "name": "Eurybia",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "female",
-    //     "images":"",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titaness of the mastery of the seas and consort of Krios."
-    // },
+    {
+        "greekName": "Εὐρυβία (Eurybía)",
+        "name": "Eurybia",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "female",
+        "images":"https://www.greekmythology.com/images/mythology/eurybia_image_148.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titaness of the mastery of the seas and consort of Krios."
+    },
     {
         "greekName": "Εὐρυνόμη (Eurynómē)",
         "name": "Eurynome",
@@ -794,25 +794,25 @@ export default [
     "events": [],
     "description": "Titaness of water-meadows and pasturelands, and mother of the three Charites by Zeus."
     },
-    // {
-    //     "greekName": "Λήλαντος (Lēlantos)",
-    //     "name": "Lelantos",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of air and the hunter's skill of stalking prey. He is the male counterpart of Leto."
-    // },
+    {
+        "greekName": "Λήλαντος (Lēlantos)",
+        "name": "Lelantos",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/lelantos_image_151.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of air and the hunter's skill of stalking prey. He is the male counterpart of Leto."
+    },
     {
         "greekName": "Λητώ (Lētṓ)",
         "name": "Leto",
@@ -833,25 +833,25 @@ export default [
     "events": [],
     "description": "Titaness of motherhood and mother of the twin Olympians, Artemis and Apollo."
     },
-    // {
-    //     "greekName": "Μενοίτιος (Menoítios)",
-    //     "name": "Menoetius",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of violent anger, rash action, and human mortality. Killed by Zeus."
-    // },
+    {
+        "greekName": "Μενοίτιος (Menoítios)",
+        "name": "Menoetius",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/menoetius_image_152.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of violent anger, rash action, and human mortality. Killed by Zeus."
+    },
     {
         "greekName": "Μῆτις (Mē̂tis)",
         "name": "Metis",
@@ -892,44 +892,44 @@ export default [
     "events": [],
     "description": "An elder Titan, in some versions of the myth he ruled the Earth with his consort Eurynome before Cronus overthrew him. Another account describes him as a snake, born from the \"World Egg\""
     },
-    // {
-    //     "greekName": "Πάλλας (Pállas)",
-    //     "name": "Pallas",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of warcraft. He was killed by Athena during the Titanomachy."
-    // },
-    // {
-    //     "greekName": "Πέρσης (Pérsēs)",
-    //     "name": "Perses",
-    //     "romanName": "",
-    //     "type": "Titan",
-    //     "isImmortal": "Inmortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": [],
-    //     "description": "Titan of destruction."
-    // },
+    {
+        "greekName": "Πάλλας (Pállas)",
+        "name": "Pallas",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/pallas_image_154.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of warcraft. He was killed by Athena during the Titanomachy."
+    },
+    {
+        "greekName": "Πέρσης (Pérsēs)",
+        "name": "Perses",
+        "romanName": "",
+        "type": "Titan",
+        "isImmortal": "Inmortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/perses_image_155.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": [],
+        "description": "Titan of destruction."
+    },
     {
         "greekName": "Προμηθεύς (Promētheús)",
         "name": "Prometheus",
@@ -970,25 +970,25 @@ export default [
     "events": [],
     "description": "Titaness of the Underworld river Styx and personification of hatred."
     },
-    // {
-    //     "name": "Abderus",
-    //     "greekName": "Ἄβδηρος",
-    //     "description": "Aided Heracles during his eighth labour and was killed by the Mares of Diomedes",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
+    {
+        "name": "Abderus",
+        "greekName": "Ἄβδηρος",
+        "description": "Aided Heracles during his eighth labour and was killed by the Mares of Diomedes",
+        "romanName": "",
+        "type": "Hero",
+        "isImmortal": "Mortal",
+        "gender": "male",
+        "images": "https://www.greekmythology.com/images/mythology/hermes_image_10.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": []
+    },
     {
         "name": "Achilles",
         "greekName": "Αχιλλεύς or Αχιλλέας",
@@ -1149,25 +1149,25 @@ export default [
     "books": [],
     "events": []
     },
-    // {
-    //     "name": "Chrysippus",
-    //     "greekName": "",
-    //     "description": "A divine hero of Elis",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
+    {
+        "name": "Chrysippus",
+        "greekName": "",
+        "description": "A divine hero of Elis",
+        "romanName": "",
+        "type": "Hero",
+        "isImmortal": "Mortal",
+        "gender": "male",
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTafNB9_6eSGLn0LaFIoGtf89RMAtmUFKxqSQ&s",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": []
+    },
     {
         "name": "Daedalus",
         "greekName": "",
@@ -1188,63 +1188,25 @@ export default [
     "books": [],
     "events": []
     },
-    // {
-    //     "name": "Diomedes",
-    //     "greekName": "",
-    //     "description": "A king of Argos and hero of the Trojan War",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
-    // {
-    //     "name": "Eleusis",
-    //     "greekName": "",
-    //     "description": "Eponymous hero of the town of Eleusis",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
-    // {
-    //     "name": "Eunostus",
-    //     "greekName": "",
-    //     "description": "A Boeotian hero",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
+    {
+        "name": "Diomedes",
+        "greekName": "",
+        "description": "A king of Argos and hero of the Trojan War",
+        "romanName": "",
+        "type": "Hero",
+        "isImmortal": "Mortal",
+        "gender": "male",
+        "images": "https://upload.wikimedia.org/wikipedia/commons/8/80/Diomedes_Glyptothek_Munich_304_n1.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": []
+    },
     {
         "name": "Ganymede",
         "greekName": "",
@@ -1305,25 +1267,6 @@ export default [
     "books": [],
     "events": []
     },
-    // {
-    //     "name": "Iolaus",
-    //     "greekName": "",
-    //     "description": "Nephew of Heracles who aided his uncle in one of his Labors",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
     {
         "name": "Jason",
         "greekName": "",
@@ -1344,25 +1287,25 @@ export default [
     "books": [],
     "events": []
     },
-    // {
-    //     "name": "Meleager",
-    //     "greekName": "",
-    //     "description": "A hero who sailed with the Argonauts and killed the Calydonian Boar",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
+    {
+        "name": "Meleager",
+        "greekName": "",
+        "description": "A hero who sailed with the Argonauts and killed the Calydonian Boar",
+        "romanName": "",
+        "type": "Hero",
+        "isImmortal": "Mortal",
+        "gender": "male",
+        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Meleager_Skopas_BM_GR1906.1-17.1.jpg/1200px-Meleager_Skopas_BM_GR1906.1-17.1.jpg",
+        "relatives": {
+            "father": "",
+            "mother": "",
+            "spouses": [],
+            "lovers": [],
+            "children": []
+        },
+        "books": [],
+        "events": []
+    },
     {
         "name": "Odysseus",
         "greekName": "",
@@ -1403,25 +1346,6 @@ export default [
     "books": [],
     "events": []
     },
-    // {
-    //     "name": "Pandion",
-    //     "greekName": "",
-    //     "description": "The eponymous hero of the Attic tribe Pandionis, usually assumed to be one of the legendary Athenian kings Pandion I or Pandion II.",
-    //     "romanName": "",
-    //     "type": "Hero",
-    //     "isImmortal": "Mortal",
-    //     "gender": "male",
-    //     "images": "",
-    //     "relatives": {
-    //         "father": "",
-    //         "mother": "",
-    //         "spouses": [],
-    //         "lovers": [],
-    //         "children": []
-    //     },
-    //     "books": [],
-    //     "events": []
-    // },
     {
         "name": "Perseus",
         "greekName": "Περσεύς",
@@ -1462,4 +1386,23 @@ export default [
     "books": [],
     "events": []
     },
+    {
+        "name": "Heracles",
+        "greekName": "Ἡρακλῆς",
+        "description": "ascended hero",
+        "romanName": "",
+        "category": "deified mortal",
+        "isImmortal": "Immortal",
+        "gender": "male",
+        "images": "https://cdn.britannica.com/55/168055-050-F201D331/Heracles-entrance-Lernaean-Hydra-Vienna-Hofburg.jpg",
+        "relatives": {
+          "father": "",
+          "mother": "",
+          "spouses": [],
+          "lovers": [],
+          "children": []
+        },
+        "books": [],
+        "events": []
+      },
 ]
