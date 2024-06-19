@@ -15,9 +15,9 @@ router.get('/characters', async function characterIndex(req, res, next) {
   }
 })
 
-router.get('/characters/:characterId', async function characterShow(req, res, next) {
+router.get('/characters/:characterName', async function characterShow(req, res, next) {
   try {
-    const character = await Character.findById(req.params.characterId);
+    const character = await Character.findOne({name: req.params.characterName});
     if (!character) throw new NotFound()
     return res.status(200).json(character);
   } catch (err) {
@@ -42,11 +42,11 @@ router.post('/characters', secureRoute, async function characterNew(req, res, ne
   }
 })
 
-router.put('/characters/:characterId', secureRoute, async function characterEdit(req, res, next) {
+router.put('/characters/:characterName', secureRoute, async function characterEdit(req, res, next) {
   try {
     if (res.locals.currentUser.isAdmin) {
       if (req.body.name === '' || req.body.description === '' || req.body.type === '' || req.body.images === '') throw new FieldsMissing()
-      const characterToUpdate = await Character.findById(req.params.characterId);
+      const characterToUpdate = await Character.findOne({name: req.params.characterName});
       if (!characterToUpdate) throw new NotFound()
       Object.assign(characterToUpdate, req.body);
       await characterToUpdate.save();
@@ -60,10 +60,10 @@ router.put('/characters/:characterId', secureRoute, async function characterEdit
   }
 })
 
-router.delete('/characters/:characterId', secureRoute, async function characterDelete(req, res, next) {
+router.delete('/characters/:characterName', secureRoute, async function characterDelete(req, res, next) {
   try {
     if (res.locals.currentUser.isAdmin) {
-      const characterToDelete = await Character.findById(req.params.characterId);
+      const characterToDelete = await Character.findOne({name: req.params.characterName});
       if (!characterToDelete) throw new NotFound()
       await characterToDelete.deleteOne();
       return res.sendStatus(204);
