@@ -371,9 +371,9 @@ export default [
         "relatives": {
             "father": "",
             "mother": "",
-            "spouses": [],
+            "spouses": ["Rhea"],
             "lovers": [],
-            "children": []
+            "children": ["Hestia", "Hera", "Hades", "Poseidon", "Zeus", "Demeter"]
         },
         "books": [],
         "events": [],
@@ -489,9 +489,9 @@ export default [
         "relatives": {
             "father": "",
             "mother": "",
-            "spouses": [],
+            "spouses": ["Cronus"],
             "lovers": [],
-            "children": []
+            "children": ["Hestia", "Hera", "Hades", "Poseidon", "Zeus", "Demeter"]
         },
         "books": [],
         "events": [],
@@ -997,7 +997,7 @@ export default [
         "type": "Hero",
         "isImmortal": "Mortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Achilles_fighting_against_Memnon_Leiden_Rijksmuseum_voor_Oudheden.jpg"
+        "images": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f560a08-3be6-4ab8-97ef-37df3d715335/dguoks9-2cc973b8-36de-46c5-8fed-7ce84595af14.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmNTYwYTA4LTNiZTYtNGFiOC05N2VmLTM3ZGYzZDcxNTMzNVwvZGd1b2tzOS0yY2M5NzNiOC0zNmRlLTQ2YzUtOGZlZC03Y2U4NDU5NWFmMTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aCmQwKR2OUCg45du6fuzzHKILXxe0U1TCWyIEWcFc4U"
     ,
     "relatives": {
         "father": "",
@@ -1017,7 +1017,7 @@ export default [
         "type": "Hero",
         "isImmortal": "Mortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Iapyx_removing_arrowhead_from_Aeneas.jpg/800px-Iapyx_removing_arrowhead_from_Aeneas.jpg"
+        "images": "https://image.jimcdn.com/app/cms/image/transf/dimension=714x10000:format=jpg/path/s2217cd0bb1220415/image/ifeb6a2babb5e8e56/version/1685749590/aeneas.jpg"
     ,
     "relatives": {
         "father": "",
@@ -1097,7 +1097,7 @@ export default [
         "type": "Hero",
         "isImmortal": "Mortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Neck-amphora_Antilochus_Louvre_G213.jpg/800px-Neck-amphora_Antilochus_Louvre_G213.jpg"
+        "images": "https://greek-mythology.org/cdn/shop/articles/greek-mythology_47_4c7a4ef8-5617-4c3a-8d96-74b260d2cd58_1600x.png?v=1674891897"
     ,
     "relatives": {
         "father": "",
@@ -1117,7 +1117,7 @@ export default [
         "type": "Hero",
         "isImmortal": "Mortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bellerophon_-_Aphrodisias_%287471674250%29.jpg/800px-Bellerophon_-_Aphrodisias_%287471674250%29.jpg"
+        "images": "https://mythicalcreatures.info/media/Bellerophon-aka-Bellerophontes-is-the-Corinthian-hero-of-Greek-mythology-1200x900.jpg"
     ,
     "relatives": {
         "father": "",

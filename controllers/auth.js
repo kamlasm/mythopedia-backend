@@ -28,12 +28,6 @@ router.post('/sign-up', async (req, res, next) => {
             throw new PasswordsNotMatching()
         }
 
-        // const passwordRegex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/
-
-        // if (!passwordRegex.test(req.body.password)) {
-        //     throw new PasswordNotValid()
-        // }
-
         const passwordHash = bcrypt.hashSync(req.body.password, 10)
         req.body.password = passwordHash
 
