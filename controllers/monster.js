@@ -5,7 +5,7 @@ import { NotFound, AlreadyExists, Unauthorised, FieldsMissing } from '../lib/err
 
 const router = express.Router()
 
-router.get('/monsters', async function monstersIndex(req, res, next) {
+router.get('/monsters', secureRoute, async function monstersIndex(req, res, next) {
   try {
     const monsters = await Monster.find();
     if (!monsters) throw new NotFound()
