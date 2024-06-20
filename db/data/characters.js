@@ -138,7 +138,7 @@ export default [
         "isPlayable": true
     },
     {
-        "name": "Dionysus/Bacchus",
+        "name": "Dionysus",
         "greekName": "Διόνυσος, Diónysos/Βάκχος, Bákkhos",
         "romanName": "Bacchus",
         "type": "God",
@@ -161,7 +161,7 @@ export default [
         "isPlayable": true
     },
     {
-        "name": "Hades/Pluto",
+        "name": "Hades",
         "greekName": "ᾍδης, Hádēs/Πλούτων, Ploutōn",
         "romanName": "male",
         "type": "God",

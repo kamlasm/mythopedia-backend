@@ -5,6 +5,7 @@ import errorHandler from './middleware/errorHandler.js';
 import express from 'express';
 import { port } from './config/environment.js';
 import characterRouter from './controllers/character.js';
+import monsterRouter from './controllers/monster.js';
 import authRouter from './controllers/auth.js';
 import gameRouter from './controllers/game.js';
 
@@ -13,6 +14,7 @@ const app = express();
 app.use(express.json());
 app.use('/api', authRouter);
 app.use('/api', characterRouter);
+app.use('/api', monsterRouter);
 app.use('/api', gameRouter);
 app.use(errorHandler);
 
