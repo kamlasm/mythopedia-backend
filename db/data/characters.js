@@ -7,7 +7,7 @@ export default [
         "description": "Goddess of beauty, love, desire, and pleasure. Although married to Hephaestus she had many lovers, most notably Ares, Adonis, and Anchises. She was depicted as an extraordinarily beautiful woman, with poets praising the radiance of her smile in particular. Her symbols include roses and other flowers, the scallop shell, and the myrtle wreath. Her sacred animals include doves and sparrows. Her Roman counterpart is Venus.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg/640px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg"
+        "images": "https://cdn.lemonandolives.com/wp-content/uploads/2024/02/09012236/Aphrodite-Recipes.jpeg.webp"
         ,
         "relatives": {
             "father": "Zeus",
@@ -76,7 +76,7 @@ export default [
         "description": "Virgin goddess of the hunt, wilderness, animals, young girls, childbirth, and plague. In later times Artemis became associated with bows and arrows. She is the daughter of Zeus and Leto, and twin sister of Apollo. In art she is often depicted as a young woman dressed in a short knee-length chiton and equipped with a hunting bow and a quiver of arrows. Her attributes include hunting spears, animal pelts, deer and other wild animals. Her sacred animals include deer, bears, and wild boars. Her Roman counterpart is Diana.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Tizian_015.jpg/834px-Tizian_015.jpg"
+        "images": "https://cdn.dribbble.com/userupload/9838501/file/original-f58f5f6a1022861496e2ed38b7baa62e.png?resize=752x"
         ,
         "relatives": {
             "father": "Zeus",
@@ -125,7 +125,7 @@ export default [
         "images": "https://facts.net/wp-content/uploads/2024/01/15-facts-about-demeter-1706697153.jpg"
         ,
         "relatives": {
-            "father": "Cronos",
+            "father": "Cronus",
             "mother": "Rhea",
             "spouses": [],
             "lovers": ["Zeus", "Poseidon"],
@@ -145,7 +145,7 @@ export default [
         "description": "God of wine, fruitfulness, parties, festivals, madness, chaos, drunkenness, vegetation, and ecstasy. In art he is depicted as either an older bearded god or an effeminate, long-haired youth. His attributes include the thyrsus, a drinking cup, the grape vine, and a crown of ivy. He is often in the company of his thiasos, a group of attendants including satyrs, maenads, and his old tutor Silenus. The consort of Dionysus was Ariadne. His sacred animals include dolphins, serpents, tigers, and donkeys. A later addition to the Olympians, in some accounts he replaced Hestia. Bacchus was another name for him in Greek, and came into common usage among the Romans.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://cdn.hswstatic.com/gif/dionysus.jpg"
+        "images": "https://preview.redd.it/dionysus-the-wine-god-bacchus-v0-maxhu7cco2sa1.jpg?width=1080&crop=smart&auto=webp&s=7d8d47fdc754e4cf9ef5f1db8666eda999cdcc75"
         ,
         "relatives": {
             "father": "Zeus",
@@ -168,10 +168,10 @@ export default [
         "description": "God of the underworld and the dead. His consort is Persephone. His attributes are the drinking horn or cornucopia, key, sceptre, and the three-headed dog Cerberus. His sacred animals include the screech owl. He was one of three sons of Cronus and Rhea, and thus sovereign over one of the three realms of the universe, the underworld. As a chthonic god, however, his place among the Olympians is ambiguous. In the mystery religions and Athenian literature, Pluto (\"the Rich\") was his preferred name, with Hades referring to the underworld itself. The Romans translated Plouton as Dis Pater (\"the Rich Father\") or Pluto.",
         "isImmortal": "Inmortal",
         "gender": "",
-        "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*alKefAbVwaLGrcdfZTCRew.jpeg"
+        "images": "https://www.greekmythology.com/images/mythology/hades_image_3.jpg"
         ,
         "relatives": {
-            "father": "Cronos",
+            "father": "Cronus",
             "mother": "Rhea",
             "spouses": [],
             "lovers": ["Persephone"],
@@ -214,10 +214,10 @@ export default [
         "description": "Queen of the gods, and goddess of marriage, women, childbirth, heirs, kings, and empires. She is the wife and sister of Zeus, and the daughter of Cronus and Rhea. She was usually depicted as a regal woman in the prime of her life, wearing a diadem and veil and holding a lotus-tipped staff. Although she is the goddess of marriage, Zeus's many infidelities drive her to jealousy and vengefulness. Her sacred animals include the heifer, the peacock, and the cuckoo. Her Roman counterpart is Juno.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://mythologyvault.com/wp-content/uploads/2023/12/hera_queen_of_greek_gods.jpg"
+        "images": "https://www.greekmythology.com/images/mythology/hera_image_5.jpg"
         ,
         "relatives": {
-            "father": "Cronos",
+            "father": "Cronus",
             "mother": "Rhea",
             "spouses": ["Zeus"],
             "lovers": [],
@@ -237,7 +237,7 @@ export default [
         "description": "God of boundaries, travel, communication, trade, language, and writing. The son of Zeus and Maia, Hermes is the messenger of the gods, and a psychopomp who leads the souls of the dead into the afterlife. He was depicted either as a handsome and athletic beardless youth, or as an older bearded man. His attributes include the herald's wand or caduceus, winged sandals, and a traveler's cap. His sacred animals include the tortoise. His Roman counterpart is Mercury.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://preview.redd.it/35lwfj624kwb1.png?auto=webp&s=a288e21b4e5d4f6ae4878a02792737840d7ace93"
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmNbKu0tszdn8QHA5qQYj9AP4JhufrPAsnxQ&s"
         ,
         "relatives": {
             "father": "Zeus",
@@ -260,10 +260,10 @@ export default [
         "description": "Virgin goddess of the hearth, home, and chastity. She is a daughter of Rhea and Cronus, and a sister of Zeus. Not often identifiable in Greek art, she appeared as a modestly veiled woman. Her symbols are the hearth and kettle. In some accounts, she gave up her seat as one of the Twelve Olympians in favor of Dionysus, and she plays little role in Greek myths. Her Roman counterpart Vesta, however, was a major deity of the Roman state.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hestia.jpg/220px-Hestia.jpg"
+        "images": "https://www.perspectivemedia.com/wp-content/uploads/2023/10/hestia.jpg"
         ,
         "relatives": {
-            "father": "Cronos",
+            "father": "Cronus",
             "mother": "Rhea",
             "spouses": [],
             "lovers": [],
@@ -286,7 +286,7 @@ export default [
         "images": "https://media.licdn.com/dms/image/D4E12AQF0b1aTJFSECg/article-cover_image-shrink_720_1280/0/1676911827998?e=2147483647&v=beta&t=U5159P0kNP1jdVjM4Egz5lFCd3sAdSO8TQOsyEmkBNc"
         ,
         "relatives": {
-            "father": "Cronos",
+            "father": "Cronus",
             "mother": "Rhea",
             "spouses": ["Amphitrite"],
             "lovers": [],
@@ -309,7 +309,7 @@ export default [
         "images": "https://i.pinimg.com/736x/f2/89/84/f28984a535b6738c11fd7547c90ae142.jpg"
         ,
         "relatives": {
-            "father": "Cronos",
+            "father": "Cronus",
             "mother": "Rhea",
             "spouses": ["Hera"],
             "lovers": ["Metis","Themis","Eurynome","Demeter","Mnemosyne","Leto"],
@@ -464,7 +464,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Giocatrici-di-astragali.JPG/723px-Giocatrici-di-astragali.JPG"
+        "images": "https://paleothea.com/wp-content/uploads/images/phoebe-titan-goddess-wisdom-prophecy.jpeg"
         ,
         "relatives": {
             "father": "",
@@ -484,7 +484,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Rh%C3%A9a_pr%C3%A9sentant_une_pierre_emmaillot%C3%A9e_%C3%A0_Cronos_dessin_du_bas-relief_d%27un_autel_romain.jpg"
+        "images": "https://paleothea.com/wp-content/uploads/images/rhea-greek-mythology.jpeg"
         ,
         "relatives": {
             "father": "",
@@ -524,7 +524,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Pergamonmuseum_-_Antikensammlung_-_Pergamonaltar_32.jpg"
+        "images": "https://www.greekmythology.com/images/mythology/thea_image_26.jpg"
         ,
         "relatives": {
             "father": "",
@@ -544,7 +544,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Goddess_of_justice.jpg"
+        "images": "https://oldworldgods.com/wp-content/uploads/2023/10/themis2.jpg"
         ,
         "relatives": {
             "father": "",
@@ -564,7 +564,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pergamonmuseum_-_Antikensammlung_-_Pergamonaltar_27.JPG/640px-Pergamonmuseum_-_Antikensammlung_-_Pergamonaltar_27.JPG",
+        "images": "https://preview.redd.it/asteria-goddess-of-the-heavens-v0-9050teslejeb1.png?width=640&crop=smart&auto=webp&s=5876e8e3622e03cd19a7362420b19db440076516",
         "relatives": {
             "father": "",
             "mother": "",
@@ -622,7 +622,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Las_Incantadas_Louvre_Ma1393_side_A.jpg"
+        "images": "https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/elevator09/AKJ2YgVZippzE38pJRE8NXktZLQYNgmWoo3UG83KpDpygAvFFmEU5ttm17VeCiM.JPG"
         ,
         "relatives": {
             "father": "",
@@ -642,7 +642,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Veronalapidary5.jpg/1920px-Veronalapidary5.jpg"
+        "images": "https://www.greekmythology.com/images/mythology/clymene_image_150.jpg"
         ,
         "relatives": {
             "father": "",
@@ -662,7 +662,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Altar_P%C3%A9rgamo_Dione_02.JPG/800px-Altar_P%C3%A9rgamo_Dione_02.JPG"
+        "images": "https://www.greekmythology.com/images/mythology/dione_image_146.jpg"
         ,
         "relatives": {
             "father": "",
@@ -682,7 +682,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ilion---metopa.jpg"
+        "images": "https://www.greekmythology.com/images/mythology/helios_image_37.jpg"
         ,
         "relatives": {
             "father": "",
@@ -702,7 +702,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Altar_Selene_Louvre_Ma508.jpg/746px-Altar_Selene_Louvre_Ma508.jpg"
+        "images": "https://i.pinimg.com/736x/7d/7f/61/7d7f614e0d211982a4b8b9c1dfc98406.jpg"
         ,
         "relatives": {
             "father": "",
@@ -1391,10 +1391,10 @@ export default [
         "greekName": "Ἡρακλῆς",
         "description": "ascended hero",
         "romanName": "",
-        "category": "deified mortal",
+        "type": "God",
         "isImmortal": "Immortal",
         "gender": "male",
-        "images": "https://cdn.britannica.com/55/168055-050-F201D331/Heracles-entrance-Lernaean-Hydra-Vienna-Hofburg.jpg",
+        "images": "https://www.greekmythology.com/images/mythology/heracles_image_134.jpg",
         "relatives": {
           "father": "",
           "mother": "",

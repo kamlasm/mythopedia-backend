@@ -6,9 +6,9 @@ const characterSchema = new mongoose.Schema({
     type: { type: String, require: true },
     images: { type: Object, require: true },
     relatives: { type: Object },
-    strength: { type: Number },
-    intelligence: { type: Number },
-    cost: { type: Number },
+    strength: { type: Number, require: true, default: 0 },
+    intelligence: { type: Number, require: true, default: 0  },
+    cost: { type: Number, require: true, default: 0  },
     isPlayable: { type: Boolean, require: true, default: false }
 })
 
