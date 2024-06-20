@@ -30,7 +30,7 @@ export default [
         "description": "God of music, arts, knowledge, healing, plague, prophecy, poetry, manly beauty, and archery. He is the son of Zeus and Leto, and the twin brother of Artemis. Both Apollo and Artemis use a bow and arrow. Apollo is often incorrectly identified as the god of the sun. Although Apollo is the god of the sun in Roman mythology, Helios is the god of the sun in Greek mythology. In sculpture, Apollo is depicted as a very handsome, beardless young man with long hair and an ideal physique. As the embodiment of perfectionism, he could be cruel and destructive, and his love affairs were rarely happy. He often appears in the company of the Muses. His attributes include the laurel wreath and lyre. His sacred animals include roe deer, swans, cicadas, hawks, ravens, crows, foxes, mice, and snakes. His Roman counterpart is also named Apollo",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Niobe_JacquesLouisDavid_1772_Dallas_Museum_of_Art.jpg"
+        "images": "https://preview.redd.it/apollo-greek-god-of-archery-medicine-music-and-later-the-sun-v0-vzm5loxa4kwb1.png?width=640&crop=smart&auto=webp&s=5a4e02cd6d4c844516160a3517d7b1ab51f08aaf"
         ,
         "relatives": {
             "father": "Zeus",
@@ -53,7 +53,7 @@ export default [
         "description": "God of war, bloodshed, and violence. The son of Zeus and Hera, he was depicted as a beardless youth, either nude with a helmet and spear or sword, or as an armed warrior. Homer portrays him as moody and unreliable, and he generally represents the chaos of war in contrast to Athena, a goddess of military strategy and skill. Ares is known for cuckolding his brother Hephaestus and conducting an affair with Aphrodite. His sacred animals include vultures, venomous snakes, dogs, and boars. His Roman counterpart Mars by contrast was regarded as the dignified ancestor of the Roman people.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Jacques-Louis_David_Aphrodite_Ares_Graces.jpg/523px-Jacques-Louis_David_Aphrodite_Ares_Graces.jpg"
+        "images": "https://cdn.dribbble.com/userupload/9838840/file/original-8da186cbe1f733b6ed2dd3ddef237a0c.png?resize=752x"
         ,
         "relatives": {
             "father": "Zeus",
@@ -99,7 +99,7 @@ export default [
         "description": "Goddess of reason, wisdom, intelligence, skill, peace, warfare, battle strategy, and handicrafts. According to most traditions, she was born from Zeus's forehead, fully formed and armored. She is depicted as being crowned with a crested helm, armed with shield and spear, and wearing the aegis over a long dress. Poets describe her as \"grey-eyed\" or having especially bright, keen eyes. She is a special patron of heroes such as Odysseus. She is the patron of the city Athens (which was named after her) and is attributed to various inventions in arts and literature. Her symbol is the olive tree. She is commonly shown as being accompanied by her sacred animal, the owl. Her Roman counterpart is Minerva.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Mengs%2C_Urteil_des_Paris.jpg/634px-Mengs%2C_Urteil_des_Paris.jpg"
+        "images": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/654b3a01271875001de64144.jpg"
         ,
         "relatives": {
             "father": "Zeus",
@@ -122,7 +122,7 @@ export default [
         "description": "Goddess of grain, agriculture, harvest, growth, and nourishment. Demeter is a daughter of Cronus and Rhea, and a sister of Zeus, by whom she bore Persephone. Demeter is one of the main deities of the Eleusinian Mysteries, in which her power over the life cycle of plants symbolizes the passage of the human soul through life and into the afterlife. She is depicted as a mature woman, often crowned and holding sheafs of wheat and a torch. Her symbols are the cornucopia, wheat-ears, the winged serpent, and the lotus staff. Her sacred animals include pigs and snakes. Her Roman counterpart is Ceres.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/CSA-T46-%2410-1861_%281862_in_error%29.jpg/800px-CSA-T46-%2410-1861_%281862_in_error%29.jpg"
+        "images": "https://facts.net/wp-content/uploads/2024/01/15-facts-about-demeter-1706697153.jpg"
         ,
         "relatives": {
             "father": "Cronos",
@@ -145,7 +145,7 @@ export default [
         "description": "God of wine, fruitfulness, parties, festivals, madness, chaos, drunkenness, vegetation, and ecstasy. In art he is depicted as either an older bearded god or an effeminate, long-haired youth. His attributes include the thyrsus, a drinking cup, the grape vine, and a crown of ivy. He is often in the company of his thiasos, a group of attendants including satyrs, maenads, and his old tutor Silenus. The consort of Dionysus was Ariadne. His sacred animals include dolphins, serpents, tigers, and donkeys. A later addition to the Olympians, in some accounts he replaced Hestia. Bacchus was another name for him in Greek, and came into common usage among the Romans.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dionysos_on_a_cheetah%2C_Pella%2C_Greece.jpg/623px-Dionysos_on_a_cheetah%2C_Pella%2C_Greece.jpg"
+        "images": "https://cdn.hswstatic.com/gif/dionysus.jpg"
         ,
         "relatives": {
             "father": "Zeus",
@@ -168,7 +168,7 @@ export default [
         "description": "God of the underworld and the dead. His consort is Persephone. His attributes are the drinking horn or cornucopia, key, sceptre, and the three-headed dog Cerberus. His sacred animals include the screech owl. He was one of three sons of Cronus and Rhea, and thus sovereign over one of the three realms of the universe, the underworld. As a chthonic god, however, his place among the Olympians is ambiguous. In the mystery religions and Athenian literature, Pluto (\"the Rich\") was his preferred name, with Hades referring to the underworld itself. The Romans translated Plouton as Dis Pater (\"the Rich Father\") or Pluto.",
         "isImmortal": "Inmortal",
         "gender": "",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hades_abducting_Persephone.jpg/800px-Hades_abducting_Persephone.jpg"
+        "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*alKefAbVwaLGrcdfZTCRew.jpeg"
         ,
         "relatives": {
             "father": "Cronos",
@@ -191,7 +191,7 @@ export default [
         "description": "God of fire, metalworking, and crafts. Either the son of Zeus and Hera or Hera alone, he is the smith of the gods and the husband of the adulterous Aphrodite. He was usually depicted as a bearded, crippled man with hammer, tongs, and anvil, and sometimes riding a donkey. His sacred animals include the donkey, the guard dog, and the crane. Among his creations was the armor of Achilles. Hephaestus used the fire of the forge as a creative force, but his Roman counterpart Vulcan was feared for his destructive potential and associated with the volcanic power of the earth.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Peter_Paul_Rubens_177.jpg/713px-Peter_Paul_Rubens_177.jpg"
+        "images": "https://mythologyvault.com/wp-content/uploads/2024/03/hephaestus_greek_god.jpg"
         ,
         "relatives": {
             "father": "Zeus",
@@ -214,7 +214,7 @@ export default [
         "description": "Queen of the gods, and goddess of marriage, women, childbirth, heirs, kings, and empires. She is the wife and sister of Zeus, and the daughter of Cronus and Rhea. She was usually depicted as a regal woman in the prime of her life, wearing a diadem and veil and holding a lotus-tipped staff. Although she is the goddess of marriage, Zeus's many infidelities drive her to jealousy and vengefulness. Her sacred animals include the heifer, the peacock, and the cuckoo. Her Roman counterpart is Juno.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Jacopo_Tintoretto_-_The_Origin_of_the_Milky_Way_-_Google_Art_Project.jpg/670px-Jacopo_Tintoretto_-_The_Origin_of_the_Milky_Way_-_Google_Art_Project.jpg"
+        "images": "https://mythologyvault.com/wp-content/uploads/2023/12/hera_queen_of_greek_gods.jpg"
         ,
         "relatives": {
             "father": "Cronos",
@@ -237,7 +237,7 @@ export default [
         "description": "God of boundaries, travel, communication, trade, language, and writing. The son of Zeus and Maia, Hermes is the messenger of the gods, and a psychopomp who leads the souls of the dead into the afterlife. He was depicted either as a handsome and athletic beardless youth, or as an older bearded man. His attributes include the herald's wand or caduceus, winged sandals, and a traveler's cap. His sacred animals include the tortoise. His Roman counterpart is Mercury.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/4/49/Francesco_Albani_-_Apollo_and_Hermes_%281635%29.jpg"
+        "images": "https://preview.redd.it/35lwfj624kwb1.png?auto=webp&s=a288e21b4e5d4f6ae4878a02792737840d7ace93"
         ,
         "relatives": {
             "father": "Zeus",
@@ -260,7 +260,7 @@ export default [
         "description": "Virgin goddess of the hearth, home, and chastity. She is a daughter of Rhea and Cronus, and a sister of Zeus. Not often identifiable in Greek art, she appeared as a modestly veiled woman. Her symbols are the hearth and kettle. In some accounts, she gave up her seat as one of the Twelve Olympians in favor of Dionysus, and she plays little role in Greek myths. Her Roman counterpart Vesta, however, was a major deity of the Roman state.",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Hestia_tapestry.jpg/764px-Hestia_tapestry.jpg"
+        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hestia.jpg/220px-Hestia.jpg"
         ,
         "relatives": {
             "father": "Cronos",
@@ -283,7 +283,7 @@ export default [
         "description": "God of the sea, rivers, floods, droughts, and earthquakes. He is a son of Cronus and Rhea, and the brother of Zeus and Hades. He rules one of the three realms of the universe, as king of the sea and the waters. In art he is depicted as a mature man of sturdy build, often with a luxuriant beard, and holding a trident. His sacred animals include the horse and the dolphin. His wedding with Amphitrite is often presented as a triumphal procession. In some stories he rapes Medusa, leading to her transformation into a hideous Gorgon and also to the birth of their two children, Pegasus and Chrysaor. His Roman counterpart is Neptune.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Poseidon_Penteskouphia_Louvre_CA452.jpg/625px-Poseidon_Penteskouphia_Louvre_CA452.jpg"
+        "images": "https://media.licdn.com/dms/image/D4E12AQF0b1aTJFSECg/article-cover_image-shrink_720_1280/0/1676911827998?e=2147483647&v=beta&t=U5159P0kNP1jdVjM4Egz5lFCd3sAdSO8TQOsyEmkBNc"
         ,
         "relatives": {
             "father": "Cronos",
@@ -306,7 +306,7 @@ export default [
         "description": "King of the gods, ruler of Mount Olympus, and god of the sky, weather, thunder, lightning, law, order, and justice. He is the youngest son of Cronus and Rhea. He overthrew Cronus and gained the sovereignty of heaven for himself. In art he is depicted as a regal, mature man with a sturdy figure and dark beard. His usual attributes are the royal scepter and the lightning bolt. His sacred animals include the eagle and the bull. His Roman counterpart is Jupiter, also known as Jove.",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://static.wikia.nocookie.net/greekmythology/images/0/0b/Coeus.jpg/revision/latest?cb=20131207104134"
+        "images": "https://i.pinimg.com/736x/f2/89/84/f28984a535b6738c11fd7547c90ae142.jpg"
         ,
         "relatives": {
             "father": "Cronos",
@@ -424,7 +424,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "female",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Mnemosyne_%28color%29_Rossetti.jpg/495px-Mnemosyne_%28color%29_Rossetti.jpg"
+        "images": "https://oldworldgods.com/wp-content/uploads/2023/10/mnemosyne1.jpg"
         ,
         "relatives": {
             "father": "",
@@ -444,7 +444,7 @@ export default [
         "type": "Titan",
         "isImmortal": "Inmortal",
         "gender": "male",
-        "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Nereus%2C_Doris%2C_Okeanos_Pergamonaltar.JPG/640px-Nereus%2C_Doris%2C_Okeanos_Pergamonaltar.JPG"
+        "images": "https://oldworldgods.com/wp-content/uploads/2023/10/oceanus1.jpg"
         ,
         "relatives": {
             "father": "",
