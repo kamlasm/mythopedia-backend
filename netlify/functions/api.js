@@ -1,6 +1,6 @@
 import 'dotenv/config';
 
-import { connectToDb } from '.../../.../../db/helpers.js';
+import { connectToDb } from '../../db/helpers.js';
 import errorHandler from '../../middleware/errorHandler.js';
 import express from 'express';
 import { port } from '../../config/environment.js';
