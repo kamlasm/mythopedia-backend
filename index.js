@@ -18,10 +18,6 @@ app.use('/api', monsterRouter);
 app.use('/api', gameRouter);
 app.use(errorHandler);
 
-app.get('/', (req, res) => {
-    res.send('hello world')
-})
-
 async function startServer() {
     try {
       await connectToDb();

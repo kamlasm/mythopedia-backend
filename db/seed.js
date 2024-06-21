@@ -5,6 +5,7 @@ import { connectToDb, truncateDb, disconnectDb } from './helpers.js'
 import bcrypt from 'bcrypt'
 import characterData from './data/characters.js'
 import monsterData from './data/monsters.js'
+import 'dotenv/config'
 
 async function seed() {
     try {
@@ -17,7 +18,7 @@ async function seed() {
         const adminObject = {
             username: 'admin',
             email: 'admin@email.com',
-            password: 'pass',
+            password: `${process.env.ADMIN_PASSWORD}`,
             isAdmin: true,
         }
 
